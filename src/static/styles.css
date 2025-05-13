@@ -96,10 +96,14 @@ section h3 {
   margin-bottom: 5px;
   font-size: 14px;
   color: #333;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #f0f4ff; /* Fondo suave para destacar */
+  transition: background-color 0.2s;
 }
 
-.activity-card ul li::before {
-  content: ""; /* Elimina el contenido adicional antes del texto */
+.activity-card ul li:hover {
+  background-color: #dce4ff; /* Fondo más oscuro al pasar el mouse */
 }
 
 .form-group {
